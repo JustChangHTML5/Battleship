@@ -5,7 +5,7 @@ var width = 100;
 var height = 60;
 var gridSize = 10;
 var gravity = 1;
-let game = new Ships();
+//let game = new Ships();
 
 canvas.width = width * gridSize;
 canvas.height = height * gridSize;
@@ -90,7 +90,7 @@ class Cannon {
         if (this.curBullet === null) {
             var checkLanded = this.curBullet.fire([Math.sin(direction), Math.cos(direction)], Math.sin(angle));
             if (checkLanded === null) {
-                for b
+                //for b
             }
             //sin x cos y
         }
@@ -148,4 +148,6 @@ function main() {
     drawGrid();
 }
 
-setInterval(main, 10)
+setInterval(main, 1000);
+
+//test
