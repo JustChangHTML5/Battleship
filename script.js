@@ -149,3 +149,5 @@ function main() {
 }
 
 setInterval(main, 10)
+
+//already half way in
